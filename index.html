@@ -70,13 +70,20 @@
 
       </div>
     </div>
+    <p>Adjust depth:
+    <button onclick="depth1()">1 (default)</button>
+    <button onclick="depth2()">2</button>
+    <button onclick="depth3()">3</button>
+    <button onclick="depth4()">4</button>
+    <button onclick="depth5()">5</button>
+    <button onclick="depth6()">6</button></p>
 
     <p class="game-explanation">
       <strong class="important">This is not for play.</strong><br>
       You can play on <a href="http://gabrielecirulli.github.io/2048/">gabrielecirulli.github.io/2048</a>
     </p><p class="game-explanation">
       <strong class="important">How it works:</strong><br>
-      The bot plays the game by spamming in a corner. The ending score for each of the two directions is calculated. The bot plays 5 games and decides which move is best. It gets the 2048 tile 61% of the time and the 4096 tile 15% of the time. There is a small chance (0.5-1%) that it will get a maximum tile of 8192.<br>It's interesting to note that even though the bot is based on random moves, it plays quite well.</a>
+      The bot plays the game by spamming in a corner. The ending score for each of the two directions is calculated. The bot plays games and decides which move is best. With depth 5, it gets the 2048 tile 61% of the time and the 4096 tile 15% of the time. There is a small chance (0.5-1%) that it will get a maximum tile of 8192. By default the bot plays only one game per move. Increase for better results, but the bot will be slower.<br>It's interesting to note that even though the bot is based on random moves, it plays quite well.</a>
     </p>
     <hr>
     <p>
