@@ -4,6 +4,25 @@ function AI(grid) {
 
 var maxTile = 0;
 var moves = 0;
+var maxDepth = 1; 
+function depth1() {
+  maxDepth = 1;
+}
+function depth2() {
+  maxDepth = 2;
+}
+function depth3() {
+  maxDepth = 3;
+}
+function depth4() {
+  maxDepth = 4;
+}
+function depth5() {
+  maxDepth = 5;
+}
+function depth6() {
+  maxDepth = 6;
+}
 
 // static evaluation function
 AI.prototype.eval = function() {
@@ -222,7 +241,7 @@ AI.prototype.iterativeDeep = function() {
       best = newBest;
     }
     depth++;
-  } while (depth < 5);
+  } while (depth < maxDepth);
   //} while ( (new Date()).getTime() - start < minSearchTime);
   //console.log('depth', --depth);
   //console.log(this.translate(best.move));
