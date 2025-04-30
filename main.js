@@ -2,6 +2,11 @@ function AI(grid) {
   this.grid = grid;
 }
 
+
+function restartGame() {
+  location.reload();
+}
+
 var maxTile = 0;
 var moves = 0;
 var maxDepth = 1; 
@@ -1689,7 +1694,4 @@ Tile.prototype.clone = function() {
   //newTile.previousPosition = { x: this.previousPosition.x, y: this.previousPosition.y };
   //newTile.mergedFrom = { x: this.previousPosition.x, y: this.previousPosition.y };
   return newTile;
-}
-function restartGame() {
-  location.reload();
 }
