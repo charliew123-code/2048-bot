@@ -1589,7 +1589,7 @@ HTMLActuator.prototype.updateScore = function (score) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? elapsedTime + " ms" : "Game Over | Max Tile: " + maxTile + " | Moves Taken: " + moves;
+  var message = won ? elapsedTime + " ms" : "Lost in " + moves + "moves";
 
   // if (ga) ga("send", "event", "game", "end", type, this.score);
 
