@@ -180,19 +180,19 @@ hr {
     margin-top: 32%; }
 
   100% {
-    margin-top: 20%; } }
+    margin-top: 2%; } }
 @-moz-keyframes slide-up {
   0% {
     margin-top: 32%; }
 
   100% {
-    margin-top: 20%; } }
+    margin-top: 2%; } }
 @keyframes slide-up {
   0% {
     margin-top: 32%; }
 
   100% {
-    margin-top: 20%; } }
+    margin-top: 2%; } }
 .game-container {
   margin-top: 40px;
   position: relative;
@@ -1476,19 +1476,19 @@ hr {
     margin-top: 32%; }
 
   100% {
-    margin-top: 20%; } }
+    margin-top: 2%; } }
 @-moz-keyframes slide-up {
   0% {
     margin-top: 32%; }
 
   100% {
-    margin-top: 20%; } }
+    margin-top: 2%; } }
 @keyframes slide-up {
   0% {
     margin-top: 32%; }
 
   100% {
-    margin-top: 20%; } }
+    margin-top: 2%; } }
 .game-container {
   margin-top: 20px;
   position: relative;
